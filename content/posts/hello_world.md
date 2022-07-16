@@ -5,6 +5,7 @@ draft: false
 # weight: 1
 # aliases: ["/AirTag"]
 tags: ["第一篇文章", "Hello World"]
+categories: ["測試"]
 author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: false
