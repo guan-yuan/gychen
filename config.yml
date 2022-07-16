@@ -74,15 +74,13 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "\U0001F44B Welcome to GY's Blog"
-    Content: Hi, I'm GY Chen as a ML/AI researcher and a Ph.D. candidate at National Tsing Hua University (國立清華大學). I would like to document ML/AI notes and ideas here.
+    Content: Hi, This is GY Chen. I'm a ML/AI researcher and a Ph.D. candidate at National Tsing Hua University (國立清華大學). I would like to document ML/AI notes and ideas here.
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
     - name: github
       url: "https://github.com/"
+    - name: linkedin
+      url: "https://linkedin.com/in/gychen-96727920b"
 
   analytics:
     google:
