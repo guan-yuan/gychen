@@ -16,9 +16,9 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
+  title: GY Chen
+  description: "GY Chen's Blog"
+  keywords: [AI, Machine Learning, Deep Learning, Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -60,7 +60,7 @@ params:
   profileMode:
     enabled: false # needs to be explicitly set
     title: GY Chen
-    subtitle: "This is subtitle"
+    subtitle: "GY Chen's Blog"
     imageUrl: "<img location>"
     imageWidth: 120
     imageHeight: 120
@@ -78,9 +78,11 @@ params:
 
   socialIcons:
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/guan-yuan"
     - name: linkedin
       url: "https://linkedin.com/in/gychen-96727920b"
+    - name: email
+      url: "mailto:guanyuan@gapp.nthu.edu.tw"
 
   analytics:
     google:
@@ -96,7 +98,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/guan-yuan/gychen/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -113,17 +115,21 @@ params:
 menu:
   main:
     - identifier: categories
-      name: categories
+      name: Categories
       url: /categories/
       weight: 10
     - identifier: tags
-      name: tags
+      name: Tags
       url: /tags/
       weight: 20
-    - identifier: about
-      name: about
-      url: /about/
+    - identifier: search
+      name: Search
+      url: /search/
       weight: 30
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
@@ -134,3 +140,10 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
